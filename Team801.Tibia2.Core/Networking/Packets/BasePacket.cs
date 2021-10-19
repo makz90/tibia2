@@ -13,7 +13,7 @@ namespace Team801.Tibia2.Core.Networking.Packets
         Bye,                // Either Server or Client tells the other to end the connection
     }
 
-    public abstract class BasePacket
+    public class BasePacket
     {
         // Packet Data
         public PacketType Type;
